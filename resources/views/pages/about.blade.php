@@ -15,6 +15,10 @@
 
 <body>
 
+    @foreach($people as $persons)
+        <li> {{ $persons }}</li>
+    @endforeach
+
 
 </body>
 </html>
