@@ -12,7 +12,7 @@ class PagesController extends Controller
     }
 
     public function about(){
-        $people = ["Timi", "Tami", "Tomi"];
-        return view('pages.about', compact('people'));
+
+        return view('about');
     }
 }
