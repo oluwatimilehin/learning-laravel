@@ -1,20 +1,9 @@
-<!doctype html>
+@extends('layout')
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+@section('title')
+  About Page
+  @stop
 
-  <title> </title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <link rel="stylesheet" href="">
-
-
-</head>
-
-<body>
-
-
-</body>
-</html>
+@section('content')
+  <h1>About Page </h1>
+@stop
