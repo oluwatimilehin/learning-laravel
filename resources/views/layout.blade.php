@@ -9,7 +9,7 @@
 
     <title> @yield('title')</title>
 
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="{{elixir('css/app.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
 

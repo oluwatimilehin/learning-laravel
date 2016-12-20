@@ -7,3 +7,9 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$primary-color: red;
+
+body{
+  background-color: $primary-color;
+}
