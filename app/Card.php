@@ -8,7 +8,9 @@ class Card extends Model
 {
     //
     public function note(){
-
         return $this->hasMany(Note::class); //This is the relatonship between the Card and the Note
+    }
+    public function addNote(Note $note){
+        $this->note()->save($note);
     }
 }
