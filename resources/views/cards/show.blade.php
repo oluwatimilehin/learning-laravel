@@ -12,10 +12,14 @@
             </ul>
             <hr>
             <h3>Add a New Note </h3>
-            <div class="form-group">
-                <textarea name="body" id="" cols="30" rows="10" class="form-control"> </textarea>
-            </div>
-
+            <form>
+                <div class="form-group">
+                    <textarea name="body" id="" cols="30" rows="5" class="form-control"> </textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit"> Add Note</button>
+                </div>
+            </form>
         </div>
     </div>
 
