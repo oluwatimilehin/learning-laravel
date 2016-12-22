@@ -17,7 +17,8 @@ class NotesController extends Controller
     public function edit(Note $note){
         return view('notes.edit', compact('note'));
     }
-    public function update(Note $note){
-
+    public function update(Note $note, Request $request){
+        $note->update($request->all());
+        return back();
     }
 }
