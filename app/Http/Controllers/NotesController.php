@@ -17,4 +17,7 @@ class NotesController extends Controller
     public function edit(Note $note){
         return view('notes.edit', compact('note'));
     }
+    public function update(Note $note){
+
+    }
 }
