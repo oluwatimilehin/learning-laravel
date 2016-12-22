@@ -14,4 +14,7 @@ class NotesController extends Controller
         );
         return back();
     }
+    public function edit(Note $note){
+        return view('notes.edit', compact('note'));
+    }
 }
