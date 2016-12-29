@@ -18,7 +18,7 @@
             <form method="POST" action=/cards/{{$card->id}}/notes>
                 {{ csrf_field() }}
                 <div class="form-group">
-                    <textarea name="body" id="" cols="30" rows="5" class="form-control"> </textarea>
+                    <textarea name="body" id="" cols="30" rows="5" class="form-control">{{old('body')}} </textarea>
                 </div>
                 <div class="form-group">
                     <button class="btn btn-primary" type="submit"> Add Note</button>
