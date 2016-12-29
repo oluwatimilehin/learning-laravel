@@ -10,7 +10,7 @@ class NotesController extends Controller
     //
     public function store(Request $request, Card $card){ //We are passing in the card object from our route call. Typehinting.
         $this->validate($request,[
-            'body'=> 'required'
+            'body'=> 'required|min:10'
             ]);
         $note = new Note($request->all());
         $card->addNote($note, 1); //$request contains the form data
