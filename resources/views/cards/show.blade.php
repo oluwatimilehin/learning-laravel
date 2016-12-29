@@ -24,6 +24,11 @@
                     <button class="btn btn-primary" type="submit"> Add Note</button>
                 </div>
             </form>
+            @if(count($errors))
+                @foreach($errors->all() as $error)
+                    <li> {{$error}}</li>
+                @endforeach
+            @endif
         </div>
     </div>
 
